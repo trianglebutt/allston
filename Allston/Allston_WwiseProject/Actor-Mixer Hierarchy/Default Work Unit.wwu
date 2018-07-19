@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9AC59F44-AC56-42B2-A75E-499E8EDD001F}" SchemaVersion="85">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{9AC59F44-AC56-42B2-A75E-499E8EDD001F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9AC59F44-AC56-42B2-A75E-499E8EDD001F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="FireCracklingInAWoodstove" ID="{65B268AF-1622-45A8-886B-41E15886983C}" ShortID="596074566">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{07E2A9D4-72BF-4203-BAC6-CCF96EA5A37F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DAFE5D37-A16F-42A6-AAB5-8F283C8FC4DA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FireCracklingInAWoodstove" ID="{CAB04801-2AD3-4101-BD08-49F3468B3DAB}" ShortID="357493851">
+							<Language>SFX</Language>
+							<AudioFile>FireCracklingInAWoodstove.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FireCracklingInAWoodstove" ID="{CAB04801-2AD3-4101-BD08-49F3468B3DAB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
