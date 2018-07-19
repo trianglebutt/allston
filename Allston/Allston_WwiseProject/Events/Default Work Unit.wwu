@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F880AA96-4DFD-46EB-A679-AA6CDDD57171}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{F880AA96-4DFD-46EB-A679-AA6CDDD57171}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F880AA96-4DFD-46EB-A679-AA6CDDD57171}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test_Fire" ID="{1E15E8F8-2F7A-45B3-A7E4-4C0EE2E1F4B7}">
+					<ChildrenList>
+						<Action Name="" ID="{9AC09B91-A7F3-461A-8CB1-D537A6A55AFF}" ShortID="158733312">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="campfire_crackle_rand" ID="{BF8BBAD8-AD83-4133-9C84-29AFFB5E2BCA}" WorkUnitID="{9AC59F44-AC56-42B2-A75E-499E8EDD001F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9187DFF3-456D-4BAE-96DC-072A192FDC7F}" ShortID="478414105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="campfire_fire_rand" ID="{8321FDD8-F094-4C7B-9F33-099CA57FB869}" WorkUnitID="{9AC59F44-AC56-42B2-A75E-499E8EDD001F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{225765FD-DCAE-41D9-9821-BE45A7C96DFC}" ShortID="291521764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="campfire_roar_rand" ID="{C86D4CA0-B969-4BFF-AF63-0796683EC421}" WorkUnitID="{9AC59F44-AC56-42B2-A75E-499E8EDD001F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
